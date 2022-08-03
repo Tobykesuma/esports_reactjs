@@ -21,6 +21,7 @@ const Navbar = () => {
             <li className='p__opensans'><a href='/news'>News</a></li>
             <li className='p__opensans'><a href='/teams'>Teams</a></li>
             <li className='p__opensans'><a href='/partners'>Partners</a></li>
+            <li className='p__opensans'><a href='/shop'>Shop</a></li>
         </ul>
         {/* navbar__login */}
         {/* <div className='app__navbar__login'>
@@ -40,6 +41,7 @@ const Navbar = () => {
                         <li><a href='/news' onClick={() => setToggleMenu(false)}>News</a></li>
                         <li><a href='/teams' onClick={() => setToggleMenu(false)}>Teams</a></li>
                         <li><a href='/partners' onClick={() => setToggleMenu(false)}>Partners</a></li>
+                        <li><a href='/shop' onClick={() => setToggleMenu(false)}>Shop</a></li>
                     </ul>
                 </div>
             )}
