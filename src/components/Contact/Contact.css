@@ -1,0 +1,77 @@
+.app__contact {
+    padding: 2rem 4rem;
+    background: #050402;
+
+}
+
+.app__contact__container {
+    padding: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.app__contact__mxauto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.app__outline__contact {
+    opacity: 40;
+    top: 20px;
+    /* left: 40px; */
+    position: relative;
+}
+
+
+.app__contact__headtext {
+    color: var(--color-white);
+    font-size: 35px;
+}
+
+.app__contact__subtext {
+    margin-top: 2rem;
+    color: var(--color-white);
+    font-size: 20px;
+    letter-spacing: 0.04em;
+    line-height: 30.5px;
+}
+
+.app__contact__flex {
+    display: flex;
+    flex-direction: column;
+    /* gap: 8; */
+}
+
+.app__contact__space {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+
+
+/* Breakpoints */
+
+
+@media screen and (min-width: 2000px) {
+    .app__contact__container {
+        padding: 3rem;
+    }
+}
+
+@media screen and (max-width: 990px) {
+
+}
+
+@media screen and (max-width: 650px) {
+    
+}
+
+@media screen and (max-width: 300px) {
+
+}

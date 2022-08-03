@@ -2,8 +2,10 @@
   --font-base: 'Playfair Display', serif;
   --font-alt: 'Roboto', sans-serif;
 
+  --color-main : #101522;
   --color-golden: #DCCA87;
-  --color-black: #0c0c0c;
+  --color-crimson: #f5efdb;
+  --color-black: #050402;
   --color-gray: #545454;
   --color-white: #ffffff;
   --color-grey: #aaaaaa;
@@ -21,3 +23,32 @@ a {
   text-decoration: none;
 }
 
+
+.slide__bottom {
+  --webkit-animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0450, 0.940) both;
+           animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+/* @-webkit-keyframes slide__bottom {
+  0% {
+    --webkit-transform: translateY(-25%);
+             transform: translateY(-25%);
+  }
+
+  100% {
+    --webkit-transform: translateY(0);
+             transform: translateY(0);
+  }
+} */
+
+@keyframes slide-bottom {
+  0% {
+    --webkit-transform: translateY(-25%);
+             transform: translateY(-25%);
+  }
+
+  100% {
+    --webkit-transform: translateY(0);
+             transform: translateY(0);
+  }
+}

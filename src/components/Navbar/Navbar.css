@@ -3,8 +3,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--color-black);
+    background-color: var(--color-main);
     padding: 1rem 2rem;
+    z-index: 999;
 }
 
 .app__navbar__logo {
@@ -14,7 +15,7 @@
 }
 
 .app__navbar__logo img {
-    width:150px;
+    width:90px;
 }
 
 .app__navbar__links {
@@ -78,10 +79,12 @@
 
 .app__navbar__smallscreen__links {
     color: var(--color-white);
+    list-style: none;
 }
 
 .app__navbar__links li:hover {
     color: var(--color-golden);
+    border-bottom: 2px solid var(--color-golden);
 }
 
 /* Breakpoints */
@@ -106,12 +109,13 @@
         padding: 1rem;
     }
 
-    .app__navbar__logo {
-        display: none;
-    }
+    /* .app__navbar__logo {
+        /* display: none; */
+    /* } */ 
 
     .app__navbar__logo img {
-        width: 110px;
+        width: 90px;
     }
 
+    
 }
