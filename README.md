@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# TEAM M11 ESPORTS REACT JS WEBSITE
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
