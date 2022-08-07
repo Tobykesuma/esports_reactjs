@@ -4,6 +4,7 @@ import BaackTopBtn from './components/BackToTop/BaackTopBtn';
 import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
 import Contact from './components/Contact/Contact';
+import About from './components/About/About';
 
 
 
@@ -13,6 +14,7 @@ function App() {
     <div className="bg__white relative">
         <Navbar />
         <BaackTopBtn />
+        <About />
         <Contact />
         <Footer />
     </div>

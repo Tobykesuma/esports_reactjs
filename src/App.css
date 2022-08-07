@@ -13,7 +13,7 @@
 }
 
 .app__bg {
-  /* background: url(''); */
+  background: url('./assets/bg.png');
   background-position: center;
   background-size: cover;
   background-repeat: repeat;
@@ -62,6 +62,7 @@
   border: none;
   outline: none;
   cursor: pointer;
+  margin-top: 2rem;
 }
 
 .p__cormorant {
@@ -96,6 +97,13 @@
 
 .margin__top {
   margin-top: 2rem;
+}
+
+.app__outline__content {
+  opacity: 40;
+  top: 20px;
+  /* left: 40px; */
+  position: relative;
 }
 
 /* Breakpoints */
@@ -162,11 +170,18 @@
   }
 
   .headtext__cormorant {
-    font-size: 35px;
+    font-size: 30px;
     line-height: 70px;
   }
 
   .margin__top {
     margin-top: 0;
+  }
+
+  .app__outline__content {
+    height: 3rem;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.2rem;
   }
 }

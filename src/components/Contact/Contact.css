@@ -17,13 +17,6 @@
     text-align: center;
 }
 
-.app__outline__contact {
-    opacity: 40;
-    top: 20px;
-    /* left: 40px; */
-    position: relative;
-}
-
 
 .app__contact__headtext {
     color: var(--color-white);
@@ -53,7 +46,21 @@
     margin-bottom: 2rem;
 }
 
+.app__contact__props {
+    flex-direction: column;
+    display: flex;
+    flex: 1;
 
+}
+
+.app__contact__text__accent {
+    justify-content: center;
+    align-items: center;
+    width: 14px;
+    height: 14px;
+    border-radius: 25px;
+
+}
 
 /* Breakpoints */
 
