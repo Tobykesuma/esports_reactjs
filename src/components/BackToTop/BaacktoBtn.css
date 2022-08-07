@@ -1,11 +1,12 @@
 .app__backtotop {
     color: var(--color-white);
-    width: 12px;
-    height: 12px;
+    width: 2rem;
+    height: 2rem;
     position: fixed;
     cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
+    left: 350px;
     
 }

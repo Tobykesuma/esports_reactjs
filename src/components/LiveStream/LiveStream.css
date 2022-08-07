@@ -1,0 +1,24 @@
+.app__livestream {
+    height: 100vh;
+    position: relative;
+}
+
+.app__livestream__overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.65);
+}
+
+/* Breakpoints */
+
+@media screen and (max-width: 450px) {
+    .app__livestream__mobile {
+        height: 420px !important;
+        width: 380px !important;
+    }
+
+    .app__livestream {
+        height: 50vh;
+    }
+}
+

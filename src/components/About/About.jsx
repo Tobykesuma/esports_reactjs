@@ -7,7 +7,7 @@ import image from '../../constants/image';
 
 const About = () => {
   return (
-    <section className='app__bg app__wrapper section__padding'>
+    <section className='app__bg app__wrapper section__padding' id='about'>
         <div className='app__wrapper__img app__wrapper__img__reverse'>
             <img src={image.AboutBG} alt='about__image' />
         </div>
