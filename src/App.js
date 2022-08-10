@@ -6,8 +6,7 @@ import Footer from './components/Footer/Footer';
 import Contact from './components/Contact/Contact';
 import About from './components/About/About';
 import LiveStream from './components/LiveStream/LiveStream';
-
-
+import Brands from './components/Brands/Brands';
 
 
 
@@ -16,6 +15,7 @@ function App() {
     <div className="bg__white relative">
         <Navbar />
         {/* <BaackTopBtn /> */}
+        <Brands />
         <About />
         <LiveStream />
         <Contact />

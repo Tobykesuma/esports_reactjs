@@ -4,6 +4,9 @@ import {
     FiMapPin, 
 } from "react-icons/fi";
 
+// Brands Image 
+import Partner_Logo1 from '../assets/partner_1.png';
+
 
 // Outline SVG //
 import {
@@ -33,3 +36,9 @@ export const contact = [
     },
 ];
 
+// Brands Partnership 
+export const brands = [
+    {
+        authorImg: Partner_Logo1,
+    }
+]
