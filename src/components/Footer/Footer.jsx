@@ -37,7 +37,7 @@ const Footer = () => {
                 <p className='p__opensans'>&copy; 2022 TEAM M11 ESPORTS. ALL RIGHT RESERVED</p>
             </div>
             <div className='footer__copyright__second'>
-                <p className='p__opensans'>DESIGN AND DEVELOP BY <a href='/'>TOBI KESUMA</a></p>
+                <p className='p__opensans'>DESIGN AND DEVELOP BY <a href='https://www.instagram.com/itstobikesuma'>TOBI KESUMA</a></p>
             </div>
         </div>
     </section>

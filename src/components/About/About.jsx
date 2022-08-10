@@ -25,7 +25,7 @@ const About = () => {
                     <p className='app__about__subtext'>
                     Berdiri pada awal April 2021 Team M11 Esports berawal dari Divisi Dota 2. Pada bulan Oktober 2021 Team M11 Esports menambah Divisi baru yaitu PUBGM Ladies dan di awal tahun 2022 Team M11 menambah 2 divisi baru yaitu Mobile Legend Bang Bang (MLBB) dan Valorant. Divisi Dota 2 Team M11 sendiri sudah berhasil meraih beberapa kompetisi tingkat Nasional dan International.
                     </p>
-                    <button className='custom__buttom' type='button'><a href=''>CONTACT US</a></button>
+                    <button className='custom__buttom' type='button'><a href='mailto:teamm11bali@gmail.com' target='_blank'>CONTACT US</a></button>
                 </div>
 
     

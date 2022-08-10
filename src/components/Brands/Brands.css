@@ -1,0 +1,15 @@
+.app__brands {
+    background: var(--color-black);
+};
+
+.app__brands__content__box {
+    display: flex;
+};
+
+.app__brands__content {
+    display: flex;
+};
+
+.app__brands__content__img {
+    width: 90px;
+}

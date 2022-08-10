@@ -9,7 +9,7 @@ const LiveStream = () => {
             {/* <h1 className='app__livestream__headtext'>LIVE STREAM</h1> */}
             <div className='app__livestream__box'>
                 <ReactPlayer  className='app__livestream__mobile'  url='https://www.youtube.com/watch?v=EJueaifwRcU' 
-                height={900} width={1905}
+                height={900} width={1650}
                />
             </div>
         </div>
