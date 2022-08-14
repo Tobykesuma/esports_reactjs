@@ -1,5 +1,7 @@
 .app__achievements {
     margin: 2rem;
+    justify-content: center;
+    align-items: center;
 }
 
 .app__achievements__headingtext {
@@ -44,6 +46,7 @@
     width: 150px;
     align-items: center;
     justify-content: center;
+    display: flex;
 }
 
 .app__achievements__img {
@@ -52,12 +55,79 @@
     justify-content: center;
 }
 
-
 .app__achievements__img img {
     width: 80px;
 }
 
+.app__achievements__content {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.app__achievements__subtext {
+    justify-content: center;
+    align-items: center;
+}
+
+.app__achievements__subtext h1 {
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.app__achievements__subtext p {
+    font-size: 15px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+}
+
 
 /* BreakPoints */
+@media screen and (min-width: 2000px) {
+
+}
+
+@media screen and (max-width: 990px) {
+
+}
+
+@media screen and (max-width: 650px) {
+    .app__achievements {
+        margin: 0;
+    }
+
+    .swiper-container {
+        width: 650px;
+    }
+
+    .app__achievements__content__images {
+        padding: 0;
+    }
+
+    .app__achievements .app__achievements__headingtext span:nth-child(1) {
+        font-size: 30px;
+    }
+
+    .swiper-wrapper {
+        margin-top: 2rem;
+    }
+
+    .swiper-slide img {
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .app__achievements {
+        margin: 0;
+    }
+    
+    .app__achievements .app__achievements__headingtext span:nth-child(1) {
+        font-size: 12px;
+    }
+}
 
 

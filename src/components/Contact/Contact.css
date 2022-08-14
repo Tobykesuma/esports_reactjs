@@ -76,7 +76,9 @@
 }
 
 @media screen and (max-width: 650px) {
-    
+   .app__contact__headtext {
+    font-size: 30px;
+   } 
 }
 
 @media screen and (max-width: 300px) {
