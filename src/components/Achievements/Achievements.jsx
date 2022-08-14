@@ -4,76 +4,62 @@ import {
     Swiper,
     SwiperSlide
   } from 'swiper/react';
-  import 'swiper/css';
-  import 'swiper/css/pagination';
-  import 'swiper/css/navigation';
-  import {
-    Autoplay,
-    Navigation,
-    Pagination,
-  } from 'swiper';
-  import image from '../../constants/image';
+import {
+  Pagination,
+  Autoplay
+} from 'swiper';
+import 'swiper/css';
+import image from '../../constants/image';
 
 const Achievements = () => {
   return (
-    <section className='app_achievements section__padding' id='achievements'>
-        <Swiper
-            spaceBetween={30}
-            centeredSlides={true}
+    <section className='app__achievements section__padding' id='achievements'>
+        <div className='app__achievements__headingtext'>
+          <span>ACHIEVEMENTS</span>
+        </div>
+        <div className='app__achievements__content__images'>
+          <Swiper
+            spaceBetween={10}
+            slidesPerView={5}
+            grabCursor={true}
+            loop={true}
             autoplay={{
-                delay: 2500,
-                disableOnInteraction: false,
+              delay: 3500,
+              disableOnInteraction: false,
             }}
             pagination={{
-                clickable: true,
+              clickable: true,
             }}
-            navigation={true}
             modules={[
-                Autoplay,
-                Pagination,
-                Navigation,
+              Pagination, Autoplay
             ]}
-            className='mySwiper'
-        >
+          >
             <SwiperSlide>
-                <div className='app__achievements__content__box'>
-                    {/* Achievements Logo 1 */}
-                    <div className='app__achievements__content'>
-                        <img src={image.Tournament_Logo1} className='image__tournament__logo' alt='' />
-                    </div>
-                    <div className='app__achivements__text__content'>
-                        <h1 className='app__achivements__headingtext'>
-                            ESL BATTLE COMMUNITY
-                        </h1>
-                        <p className='app__achivements__lowtext'>
-                            1ST
-                        </p> 
-                        <p className='app__achievements__place'>
-                            Place
-                        </p>
-                    </div>
-
-                    {/* Achievements Logo 2 */}
-                    <div className='app__achievements__content'>
-                        <img src={image.Tournament_Logo2} className='image__tournament__logo' alt='' />
-                    </div>
-                    <div className='app__achivements__text__content'>
-                        <h1 className='app__achivements__headingtext'>
-                            ESL BATTLE COMMUNITY
-                        </h1>
-                        <p className='app__achivements__lowtext'>
-                            1ST
-                        </p> 
-                        <p className='app__achievements__place'>
-                            Place
-                        </p>
-                    </div>
-                    
-
-                </div>
+                <img src={image.Tournament_Logo1} className='app__achievements__img' alt='' />
             </SwiperSlide>
 
-        </Swiper>
+            <SwiperSlide>
+                <img src={image.Tournament_Logo2} className='app__achievements__img' alt='' />
+            </SwiperSlide>
+
+            <SwiperSlide>
+                <img src={image.Tournament_Logo3} className='app__achievements__img' alt='' />
+            </SwiperSlide>
+
+            <SwiperSlide>
+                <img src={image.Tournament_Logo4} className='app__achievements__img' alt='' />
+            </SwiperSlide>
+
+            <SwiperSlide>
+                <img src={image.Tournament_Logo5} className='app__achievements__img' alt='' />
+            </SwiperSlide>
+
+            <SwiperSlide>
+                <img src={image.Tournament_Logo6} className='app__achievements__img' alt='' />
+            </SwiperSlide>
+
+          </Swiper>
+        </div>
     </section>
   )
 }

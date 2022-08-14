@@ -1,0 +1,34 @@
+.images__props__achievements {
+    height: 250px;
+    width: 250px;
+}
+
+/* .achivements__images___slider {
+
+} */
+
+.swiper-slide {
+    padding-top: 100%;
+    overflow: hidden;
+    position: relative;
+    margin-right: 0;
+}
+
+.swiper-slide img {
+    position: absolute;
+    top: 0;
+    left: 15px;
+    background-size: cover;
+}
+
+.swiper-button-prev {
+    top: 120px;
+    left: 30px;
+    color: var(--color-black);
+}
+
+.swiper-button-next {
+    top: 120px;
+    right: 30px;
+    color: var(--color-black);
+}

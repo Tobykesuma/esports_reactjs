@@ -17,7 +17,7 @@ function App() {
         <Navbar />
         {/* <BaackTopBtn /> */}
         <Achievements />
-        <Brands />
+        {/* <Brands />  */}
         <About />
         <LiveStream />
         <Contact />

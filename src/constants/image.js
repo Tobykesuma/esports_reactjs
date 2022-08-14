@@ -1,9 +1,20 @@
+// Main Logo //
 import logo from '../assets/logo.png';
-import OutlineAbout from '../assets/about.svg';
-import OutlineContact from '../assets/contact.svg';
-import AboutBG from '../assets/AboutBG.jpeg';
-import Partner_Logo1 from '../assets/partner_1.png';
 
+
+// Outline Fonts //
+import OutlineAbout from '../assets/ABOUT_US.svg';
+import OutlineContact from '../assets/contact.svg';
+import OutlineOurTeams from '../assets/our_teams.svg';
+import OutlineDota2Players from '../assets/dota2_players.svg';
+import OutlineMLBBPlayers from '../assets/mlbb_players.svg';
+import OutlineValorantPlayers from '../assets/valorant_players.svg';
+
+// BackGround //
+import AboutBG from '../assets/AboutBG.jpeg';
+
+// Partnership Logo //
+import Partner_Logo1 from '../assets/partner_1.png';
 
 
 // Achievements Import //
@@ -18,6 +29,10 @@ export default {
     logo,
     OutlineAbout,
     OutlineContact,
+    OutlineOurTeams,
+    OutlineDota2Players,
+    OutlineMLBBPlayers,
+    OutlineValorantPlayers,
     AboutBG,
     Partner_Logo1,
     Tournament_Logo1,

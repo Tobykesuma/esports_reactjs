@@ -1,8 +1,63 @@
-.app__achivements__text__content {
-    display: block;
+.app__achievements {
+    margin: 2rem;
 }
 
-.app__achievements__content__box {
+.app__achievements__headingtext {
+    text-align: center;
     display: flex;
-
+    flex-direction: column;
 }
+
+.app__achievements .app__achievements__headingtext span:nth-child(1) {
+    font-size: 3.1rem;
+    font-weight: 600;
+    color: var(--color-black);
+    letter-spacing: 2px;
+    font-family: var(--font-base);
+}
+
+.app__achievements .app__achievements__headingtext span:nth-child(2) {
+    font-size: 2.5rem;
+    color: var(--color-black);
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.app__achievements__content__images {
+    width: 100%;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.swiper-wrapper {
+    margin-top: 3rem;
+    overflow: visible !important ;
+}
+
+.swiper-slide {
+    width: 20rem;
+    border-radius: 1.5rem;
+}
+
+.swiper-slide img {
+    width: 150px;
+    align-items: center;
+    justify-content: center;
+}
+
+.app__achievements__img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.app__achievements__img img {
+    width: 80px;
+}
+
+
+/* BreakPoints */
+
+
